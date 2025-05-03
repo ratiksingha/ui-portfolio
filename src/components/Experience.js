@@ -31,6 +31,10 @@ const Experience = (props) => {
         </Badge>
       ));
 
+      const dynamicIcon = mainTechnologies.length > 0
+        ? `fab fa-${mainTechnologies[0].toLowerCase()} experience-icon`
+        : "fas fa-briefcase experience-icon";
+
       return (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -40,7 +44,7 @@ const Experience = (props) => {
             color: "#fff",
             textAlign: "center",
           }}
-          icon={<i className="fab fa-angular experience-icon"></i>}
+          icon={<i className={dynamicIcon}></i>}
           key={i}
         >
           <div style={{ textAlign: "left", marginBottom: "4px" }}>{mainTech}</div>

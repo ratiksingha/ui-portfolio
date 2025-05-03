@@ -20,8 +20,8 @@ const Footer = (props) => {
 
         <div className="copyright py-4 text-center">
           <div className="container">
-            <small>
-              Copyright &copy;{" "}
+          <small>
+              Made with <span style={{ color: "red" }}>❤</span> by{" "}
               {sharedBasicInfo ? sharedBasicInfo.name : "???"}
             </small>
           </div>

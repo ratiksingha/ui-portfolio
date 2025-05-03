@@ -55,12 +55,13 @@
       {
         "company": "Infosys",
         "title": "DevSecOps Engineer",
-        "years": "01.2018 - 09.2019",
+        "years": "December 2023 - June 2024",
         "mainTech": [
-          "harness CI/CD",
+          "Salesforce",
+          "Harness.io",
           "Terraform",
-          "Kubernetes",
-          "Salesforce"
+          "Kubernetes"
+          
         ],
         "technologies": [
           "Salesforce",
@@ -68,12 +69,13 @@
           "Bash",
           "JavaScript"
           
+          
         ]
       },
       {
         "company": "Infosys",
         "title": "Full Stack Developer",
-        "years": "01.2018 - 09.2019",
+        "years": "November 2020 - December 2023",
         "mainTech": [
           "Java",
           "Spring Boot",
