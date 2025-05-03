@@ -26,6 +26,18 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-tailwindcss-plain",
+            "name": "Tailwind CSS"
+          },
+          {
+            "class": "devicon-axios-original",
+            "name": "Axios"
           }
           
         ]
