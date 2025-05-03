@@ -12,6 +12,26 @@
           "name": "instagram",
           "url": "https://www.instagram.com/lookoutmav",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/ratiksingh",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/whonickumar",
+          "class": "fab fa-twitter"
+        },
+        {
+          "name": "whatsapp",
+          "url": "https://wa.me/9109200353",
+          "class": "fab fa-whatsapp"
+        },
+        {
+          "name": "email",
+          "url": "mailto:singhratik07@gmail.com",
+          "class": "fas fa-envelope"
         }
       ],
       "image": "myProfile.jpg"
