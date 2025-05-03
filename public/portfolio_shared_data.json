@@ -1,0 +1,142 @@
+{
+    "basic_info": {
+      "name": "Ratik Singh",
+      "titles": [ "Front-end Developer", "Full Stack Developer", "React Developer", "Golang Developer" , "Learner" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "80"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "75"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+       
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "65"
+      },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-original",
+          "level": "60"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "70"
+        },
+        {
+          "name": "GitHub",
+          "class": "devicon-github-plain",
+          "level": "70"
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain",
+          "level": "60"
+        },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "60"
+      },
+        {
+          "name": "NodeJS",
+          "class": "devicon-nodejs-plain",
+          "level": "70"
+        },
+        {
+          "name": "ExpressJS",
+          "class": "devicon-express-original",
+          "level": "70"
+        },
+        {
+          "name": "Golang",
+          "class": "devicon-go-plain",
+          "level": "50"
+        },
+        {
+          "name":"Tailwind CSS",
+          "class":"devicon-tailwindcss-plain",  
+          "level":"70"
+        },
+        {
+          "name":"Docker",
+          "class":"devicon-docker-plain",
+          "level":"60"
+        },{
+          "name":"Kubernetes",
+          "class":"devicon-kubernetes-plain",
+          "level":"50"
+        },{
+          "name":"GraphQL",
+          "class":"devicon-graphql-plain",
+          "level":"50"
+        },{
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "80"
+        },
+        {
+          "name": "CI/CD",
+          "class": "devicon-jenkins-plain",
+          "level": "70"
+        },
+        {
+          "name": "Spring Boot",
+          "class": "devicon-spring-plain",
+          "level": "75"
+        }
+
+      ]
+    }
+  }

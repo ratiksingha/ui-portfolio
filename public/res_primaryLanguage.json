@@ -1,0 +1,100 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+"description": "👋 Hey there! I’m Ratik.singha() — a full stack developer passionate about crafting smooth, fast, and modern web experiences. I work with the latest front-end frameworks like React and Angular  and I’ve got backend chops in Java and Go to round it all out.\n\nWhat you’re seeing is a portfolio template designed to showcase clean code and creative flair, inspired by Dorota1997’s awesome work but I put my own recipe into it. If you find this template helpful or inspiring, don’t forget to ⭐ the repo — help it reach more devs out there!\n\nHappy coding 💻⚡",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "FoodAdda",
+        "startDate": "2025",
+"description": "Swiggy-Inspired Food Ordering App\nA responsive web app built with React.js, Redux, and Tailwind CSS, mimicking Swiggy’s core UX. Features include dynamic cart management, real-time API integration via Axios, optimized re-renders with React Hooks, and route-based navigation — all designed to simulate a smooth, real-world food ordering experience.",
+        "images": [
+          "images/portfolio/foodadda/p1.png"
+        ],
+        "url": "https://food-adda-delta.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+          
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Infosys",
+        "title": "Full Stack Developer",
+        "years": "June 2024 - present",
+        "mainTech": [
+          "Angular 15",
+          "Golang"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          "Golang",
+          "SignalR",
+          "Angular Material"
+        ]
+      },
+      {
+        "company": "Infosys",
+        "title": "DevSecOps Engineer",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "harness CI/CD",
+          "Terraform",
+          "Kubernetes",
+          "Salesforce"
+        ],
+        "technologies": [
+          "Salesforce",
+          "GIT",
+          "Bash",
+          "JavaScript"
+          
+        ]
+      },
+      {
+        "company": "Infosys",
+        "title": "Full Stack Developer",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Jenkins"
+         
+        ],
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "React",
+          "Jenkins",
+          "MySQL",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Bootstrap"
+          
+          
+        ]
+      }
+      
+    ]
+  }
