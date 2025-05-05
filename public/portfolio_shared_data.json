@@ -23,11 +23,7 @@
           "url": "https://twitter.com/whonickumar",
           "class": "fab fa-twitter"
         },
-        {
-          "name": "whatsapp",
-          "url": "https://wa.me/9109200353",
-          "class": "fab fa-whatsapp"
-        },
+       
         {
           "name": "email",
           "url": "mailto:singhratik07@gmail.com",
