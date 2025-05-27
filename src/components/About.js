@@ -4,6 +4,8 @@ import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import javaIcon from "@iconify/icons-logos/java";
 
+
+
 const About = ({ sharedBasicInfo, resumeBasicInfo }) => {
   const profilepic = sharedBasicInfo
     ? `images/${sharedBasicInfo.image}`
@@ -41,6 +43,7 @@ const About = ({ sharedBasicInfo, resumeBasicInfo }) => {
                   icon={javaIcon}
                   style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                 />
+                
               </span>
             </div>
           </div>
