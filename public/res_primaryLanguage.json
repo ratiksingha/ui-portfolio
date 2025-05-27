@@ -15,7 +15,11 @@
         "startDate": "2025",
 "description": "Swiggy-Inspired Food Ordering App\nA responsive web app built with React.js, Redux, and Tailwind CSS, mimicking Swiggy’s core UX. Features include dynamic cart management, real-time API integration via Axios, optimized re-renders with React Hooks, and route-based navigation — all designed to simulate a smooth, real-world food ordering experience.",
         "images": [
-          "images/portfolio/foodadda/p1.png"
+          "images/portfolio/foodadda/p1.png",
+          "images/portfolio/foodadda/p2.png",
+          "images/portfolio/foodadda/p3.png",
+          "images/portfolio/foodadda/p4.png"
+
         ],
         "url": "https://food-adda-delta.vercel.app/",
         "technologies": [
