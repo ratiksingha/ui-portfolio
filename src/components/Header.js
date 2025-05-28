@@ -7,43 +7,42 @@ import FeelingProud from "./CenterIcon/FeelingProud"
 const Header = (props) => {
   const [checked, setChecked] = useState(false);
   const [titles, setTitles] = useState([]);
-  
 
-const themeColors = {
-  accentBright: "#FC1056",
-  accentColor: "#E3405F",
-  avatarMisc: "#212121",
-  avatarShoes: "#2B2B2B",
-  body: "#1D1D1D",
-  dark: "#000000",
-  imageClothes: "#000000",
-  imageDark: "#292A2D",
-  name: "dark",
-  projectCard: "#292A2D",
-  secondaryText: "#8D8D8D",
-  skinColor: "#F7B799",
-  skinColor2: "#FCB696",
-  text: "#FFFFFF",
-};
+  const themeColors = {
+    accentBright: "#FC1056",
+    accentColor: "#E3405F",
+    avatarMisc: "#212121",
+    avatarShoes: "#2B2B2B",
+    body: "#1D1D1D",
+    dark: "#000000",
+    imageClothes: "#000000",
+    imageDark: "#292A2D",
+    name: "dark",
+    projectCard: "#292A2D",
+    secondaryText: "#8D8D8D",
+    skinColor: "#F7B799",
+    skinColor2: "#FCB696",
+    text: "#FFFFFF",
+  };
 
-const themeColorsDark = {
-accentBright:"#FC1056",
-accentColor: "#E3405F",
-avatarMisc: "#e9ecf2",
-avatarShoes: "#ccd2e3",
-body: "#FFFFFF",
-dark: "#000000",
-imageClothes: "#dce4f2",
-imageDark: "#dce4f2",
-name: "light",
-projectCard: "#DCE4F2",
-secondaryText: "#7F8DAA",
-skinColor: "#F7B799",
-skinColor2: "#FCB696",
-text: "#343434"
+  const themeColorsDark = {
+    accentBright: "#FC1056",
+    accentColor: "#E3405F",
+    avatarMisc: "#e9ecf2",
+    avatarShoes: "#ccd2e3",
+    body: "#FFFFFF",
+    dark: "#000000",
+    imageClothes: "#dce4f2",
+    imageDark: "#dce4f2",
+    name: "light",
+    projectCard: "#DCE4F2",
+    secondaryText: "#7F8DAA",
+    skinColor: "#F7B799",
+    skinColor2: "#FCB696",
+    text: "#343434"
+  };
 
-};
-const [themeIcon, setThemeIcon] = useState(themeColorsDark);
+  const [themeIcon, setThemeIcon] = useState(themeColorsDark);
 
   useEffect(() => {
     if (props.sharedData) {
@@ -65,7 +64,7 @@ const [themeIcon, setThemeIcon] = useState(themeColorsDark);
       body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
     body.setAttribute(dataThemeAttribute, newTheme);
 
-    setThemeIcon( themeIcon === themeColors ? themeColorsDark : themeColors);
+    setThemeIcon(themeIcon === themeColors ? themeColorsDark : themeColors);
   };
 
   const HeaderTitleTypeAnimation = useMemo(() => {
@@ -78,26 +77,31 @@ const [themeIcon, setThemeIcon] = useState(themeColorsDark);
 
   return (
     <header
-      id="home" 
+      id="home"
       style={{ height: window.innerHeight - 140, display: "block" }}
     >
-
-        <div id="stars" />
-        <div id="stars2" />
-        <div id="stars3" />
-
-        <div className="greeting-icon" style={{ height: "40px" }}>
-        <FeelingProud theme={themeIcon}  style={{ width: "30px", height: "30px" }} />
-        </div>
+      <div id="stars" />
+      <div id="stars2" />
+      <div id="stars3" />
 
       <div className="row aligner" style={{ height: "100%" }}>
         <div className="col-md-12">
           <div>
+            <div
+              className="greeting-icon"
+              style={{
+                height: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                margin: "0 auto 16px auto"
+              }}
+            >
+              <FeelingProud theme={themeIcon} style={{ width: "30px", height: "30px" }} />
+            </div>
             <span
               className="iconify header-icon"
-              
             >
-             
             </span>
             <br />
             <h1 className="mb-0">
