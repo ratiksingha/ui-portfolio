@@ -7,6 +7,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Certificates from "./components/Cerificates";
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
@@ -71,6 +72,8 @@ const App = () => {
         sharedSkills={sharedData.skills}
         resumeBasicInfo={resumeData.basic_info}
       />
+      <Certificates/>
+
       <Experience
         resumeExperience={resumeData.experience}
         resumeBasicInfo={resumeData.basic_info}
